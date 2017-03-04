@@ -1,4 +1,5 @@
 ---
+layout: home
 title: Derrick97's Personal Page
 ---
 

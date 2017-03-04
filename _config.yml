@@ -90,6 +90,7 @@ navigation_header:
   Blog: /blog/
   Haha: /haha/
   Search: /search/
+  Personal Page: /personalpage/
   Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
