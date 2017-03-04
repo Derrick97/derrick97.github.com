@@ -1,68 +1,41 @@
 ---
-title: About Topic
+title:   
+layout: home
 feature_text: |
-  ## Topic
-  Physics-based models for surface appearances in Computer Graphics 
-feature_image: "https://unsplash.it/1300/400?image=971"
+  ## Physics-based models for surface appearances in Computer Graphics
+  
+feature_image: "https://osu.ppy.sh/ss/7457451"
 image: "https://unsplash.it/600/400?image=971"
-excerpt: "Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it."
+excerpt: "Computer graphics is one of the most important techniques in the 21st century. People need"
 ---
 
-Alembic is a starting point for [Jekyll](https://jekyllrb.com/) projects. Rather than starting from scratch, this boilerplate is designed to get the ball rolling immediately. Install it, configure it, tweak it, push it.
+## About Microfacet Models in Computer Graphic
+  Computer graphics is one of the most important techniques in the 21st century. In modern films, especially some animation or special effects, the requirement of making the objects more realistic is going higher.
+In this case, scientists has developed lots of approaches and models to solve this problem. Here we mainly discuss one of the most prevailing models: Microfacet Models. We will indtroduce how it works, and the physical meaning behind this model.
 
-{% include button.html text="Fork on GitHub" icon="github" link="https://github.com/daviddarnes/alembic" %} {% include button.html text="Install Alembic" link="https://github.com/daviddarnes/alembic#installation" %} {% include button.html text="Tip me $5" link="https://www.paypal.me/daviddarnes/5usd" color="#333333" %}
 
-## Features
 
-- Available as a starter kit or as [Jekyll 3.3 theme gem](http://jekyllrb.com/docs/themes/)
-- Tested in all major browsers, that includes IE as well as Edge
-- Extensive set of shortcodes to include various elements; such as buttons, icons, figure images and more
-- Solid typographic framework from [Sassline](https://sassline.com/)
-- Configurable navigation via a single file
-- Modular Jekyll components
-- Easily interchangeable sidebar
-- Post category support in the form of a single post index page grouped by category
-- Built in live search using JavaScript
-- Contact form built in using [Formspree](https://formspree.io/)
-- Works on [GitHub Pages](https://pages.github.com/) out of the box
-- Built with [Jekyll](https://jekyllrb.com/) 3.3
-- Designed with [Siteleaf](http://www.siteleaf.com/) in mind
-- Has 9 of the most popular networks as performant sharing buttons
-- Has documentation
 
-## Examples
+## Introduction
 
-Here are a few examples of Alembic out in the wild being used in a variety of ways:
+Modelling the real world is obviously not easy. People who want to make there graphic more realistic need to have a good knowledge about the physics behind them. This section briefly introduces the physics of modelling, BRDF, and also the basic idea of Microfacet model.
 
-- [bitpodcast.com](https://bitpodcast.com/)
-- [katiesimonemusic.com](http://katiesimonemusic.com/)
-- [joelcagedesign.com](https://joelcagedesign.com/)
-- [bawejakunal.github.io](https://bawejakunal.github.io/)
-- [case2111.github.io](http://case2111.github.io/)
-- [www.10people.co.uk](http://www.10people.co.uk/)
 
-## Installation
 
-### As a Boilerplate / Fork
 
-1. [Fork the repo](https://github.com/daviddarnes/alembic#fork-destination-box)
-2. Clone down the repo with `$ git clone git@github.com:username/reponame.git`
-3. Delete the `demo/` folder and `screenshot.png` files
-4. Change the `CNAME` record to your projects' record
-5. Install bundler with `$ gem install bundler`
-6. Install gems with `$ bundle install`
-7. Run Jekyll with `$ bundle exec jekyll serve --watch`
-8. Begin hacking for your project
 
-### As a Jekyll 3.3 theme gem
+## Microfacet Model
 
-1. Download the starter `/demo` content, [quick download link](https://minhaskamal.github.io/DownGit/#/home?url=https://github.com/daviddarnes/alembic/tree/master/demo)
-2. Install bundler with `$ gem install bundler`
-3. Install gems with `$ bundle install`
-4. Run Jekyll with `$ bundle exec jekyll serve --watch`
-5. Begin hacking for your project
+### Theorm
 
-### Boilerplate & Theme differences
+This part gives a physical analysis for microfacet model, 
+
+### Bump Analysis
+
+This part gives some real world objects to illustrate how the macrofacet model works. It is really powerful in some cases.
+
+### Application of different Materials
+
 
 The boilerplate kit is better for more drastic hacking and changes, a project that's quite different to any other and needs a lot of custom work done. Additionally you'll only be able to use this method if you want to host it on GitHub Pages, as [themes can't be submitted](https://pages.github.com/themes/)... yet.
 
