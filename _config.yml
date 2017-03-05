@@ -86,12 +86,15 @@ url: "https://derrick97.github.io" # Site url, also used in jekyll-seo-tag
 # 8. Site navigation
 navigation_header:
   Home: /
-  Elements: /elements/
-  Blog: /blog/
-  Haha: /haha/
+  Bump Mapping: /bumpmapping/
+  Oren Nayar Model: /orennayarmodel/
+  Cook-Torrance Model: /cooktorrancemodel/
   Search: /search/
   Personal Page: /personalpage/
-  Fork Alembic: https://github.com/daviddarnes/alembic
 
 navigation_footer:
   Back to Home: /
+  
+navigation_personalpage:
+  Anson_98's Personal Page: /personalpageA/
+  Derrick97's Personal Page: /personalpageD/

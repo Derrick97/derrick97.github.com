@@ -1,7 +1,26 @@
 ---
 layout: home
-title: Anson_98's Personal Page
 ---
 
-{% include figure.html image="https://cate.doc.ic.ac.uk/photo/student/pics16/cz1616.jpg" caption="My avator" %}
-There is nothing in it.
+<div class="text" style="text-align:center; font-size:40px; font-weight:bold;">
+  Anson_98's Personal Page
+</div>
+
+<div>
+{% include figure.html image="https://puu.sh/uuc1Q/f45aa11b69.jpg" caption="My avatar" position="left" %}
+</div>
+
+Name:
+<br>
+gender:
+<br>
+age:
+<br>
+nationality:
+<br>
+e-mail:
+<br>
+department:
+<br>
+phone:
+
