@@ -33,7 +33,7 @@ This part gives a physical analysis for microfacet model,
 
 ### [Oryan Nayar Model](/orennayarmodel/)
 
-Oryan Nayar Model gives a more realistic model than previous model methods, such as Lambertian Model.
+Oryan Nayar Model gives a more realistic model than previous model methods, such as Lambertian Model. It is especially effective when modelling rough surface, because it gives a relatively reasonable algorthim to take care of light diffusion of irregular surface.
 
 [read more >>](/orennayarmodel/)
 
@@ -43,4 +43,8 @@ Bump Mapping is an important technique for understanding the Microfacet Distribu
 
 [read more >>](/bumpmapping/)
 
-[see cook-torrance >>](/cooktorrancemodel/)
+### [Cook-Torrance](/cooktorrancemodel/)
+Cook-Torrance Reflectance Model is one of the greatest model for calculating the reflection on rough surfaces. Compared to some old models, which is poor in tackling the micro features of a surface, Cook-Torrance offers a more realistic and precise way.
+
+[read more >>](/cooktorrancemodel/)
+
