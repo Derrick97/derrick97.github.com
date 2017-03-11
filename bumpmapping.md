@@ -13,3 +13,7 @@ To simulate a realistic rough surface, bump mapping adds a bump function on the 
   
 Because the effect of the bumps on the reflection is mainly due to the normal direction, thus such method can ensure that the illumination will be changed once the object move because the normal of the bump is also moving, which will make the object looks not always smooth as what texture mapping will do. At the same time, this method also preserve the original geometric features of the object, so the work of reworking on the geometry of the object are not needed, thus save a great amount of time and memory.
 
+{% include figure.html image="https://puu.sh/uvclF/e6b0d14457.PNG" %}
+
+{% include figure.html image="https://puu.sh/uvclD/75fa85849f.png" %}
+

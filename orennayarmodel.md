@@ -4,9 +4,19 @@ title: Oren Nayar Model
 ---
 ---
  
+ {% include figure.html image="https://puu.sh/uvcls/eda177746d.PNG" %}
+ 
 ## Disadvantages of other model
  
-  For modelling a smooth surface such as matte, there is an easy model called Lambertian Model, which assumes that the light diffuses evenly in all direction. The result of this model is an object which looks equally illuminated in all directions (Lambert 1, Lambert 2). This works well on smooth surface but not for rough surface, because irregular bumps, or called “microfacet”, on the rough surface, will not diffuse the light evenly. 
+  For modelling a smooth surface such as matte, there is an easy model called Lambertian Model, which assumes that the light diffuses evenly in all direction. The result of this model is an object which looks equally illuminated in all directions (Lambert 1, Lambert 2). 
+  
+  {% include figure.html image="https://puu.sh/uvclH/f9a0fc6ab8.PNG" %}
+  
+  {% include figure.html image="https://puu.sh/uvclI/6a3c60b80c.PNG" %}
+  
+  This works well on smooth surface but not for rough surface, because irregular bumps, or called “microfacet”, on the rough surface, will not diffuse the light evenly. 
+
+{% include figure.html image="https://puu.sh/uvclE/adaef73c48.PNG" %}
 
 ## Utilizing Oren Nayar Model
 
