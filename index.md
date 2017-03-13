@@ -2,9 +2,9 @@
 title:   
 layout: home
 feature_text: |
-  ## Physics-based models for surface appearances in Computer Graphics
+  ## Microfacet-based realistic appearance models of reflection in Computer Graphics
   
-feature_image: "https://osu.ppy.sh/ss/7457451"
+feature_image: "http://i.imgur.com/kEthf6J.jpg"
 image: "https://unsplash.it/600/400?image=971"
 excerpt: "Computer graphics is one of the most important techniques in the 21st century. People need"
 ---
@@ -18,33 +18,33 @@ In this case, scientists has developed lots of approaches and models to solve th
 
 ## Introduction
 
-Modelling the real world is obviously not easy. People who want to make there graphic more realistic need to have a good knowledge about the physics behind them. This section briefly introduces the physics of modelling, BRDF, and also the basic idea of Microfacet model.
+Modelling the real world is obviously not easy. Computer Graphic technician who wants to make their graphic more realistic needs to havengood knowledge about the physical theorems behind it. This section briefly introduces the radiometry section of optical physics, BRDF, and also the basic idea of Microfacet model.
+
+[Read More >>](/basicknowledge/)
+
+## Microfacet-based Models
+
+### Theory
+
+Microfacet Theory is a theory based on realistic surfaces. It is interested in the normal distribution function of a surface which measures the distribution probability of the normals of the micro surfaces. This part gives a physical analysis for microfacet model.
+
+[Read More >>](/microfacet/)
 
 
 
-
-
-## Microfacet Model
-
-### Theorm
-
-This part gives a physical analysis for microfacet model, 
-
-
-### [Oryan Nayar Model](/orennayarmodel/)
+### Oryan Nayar Model
 
 Oryan Nayar Model gives a more realistic model than previous model methods, such as Lambertian Model. It is especially effective when modelling rough surface, because it gives a relatively reasonable algorthim to take care of light diffusion of irregular surface.
 
 [read more >>](/orennayarmodel/)
 
-### [Bump Mapping](/bumpmapping/)
+### Bump Mapping
 
 Bump Mapping is an important technique for understanding the Microfacet Distribution. This part introduces why we should use bump in microfacet models, and how bump mapping works.
 
 [read more >>](/bumpmapping/)
 
-### [Cook-Torrance](/cooktorrancemodel/)
+### Cook-Torrance
 Cook-Torrance Reflectance Model is one of the greatest model for calculating the reflection on rough surfaces. Compared to some old models, which is poor in tackling the micro features of a surface, Cook-Torrance offers a more realistic and precise way.
 
 [read more >>](/cooktorrancemodel/)
-

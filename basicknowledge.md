@@ -9,8 +9,6 @@ In order to completely understand BRDF Theorem, we need to get the basic knowled
 
   Computer Graphic for realistic objects is based on the physical rendering model, while rediometry is the subject that measures the transfer of energy of electromagnetic radiation.
   
-  <div style="display:block; right:40%;">
-  
 ## Physical quantity in Radiometry
 
 # Energy
@@ -49,9 +47,8 @@ It is the strength of the radiance of the incident object, which measures the ar
 
 ## BRDF Model
 
-the BRDF model measures 
+the BRDF model measures the ratio of the irritance of the incident beam and the reflectance of the reflected beam. it described how much energy of specific wavelength of light is transferred to a specific given direction in the reflective surface.
 
-</div>
   
   
   

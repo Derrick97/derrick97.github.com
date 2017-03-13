@@ -86,11 +86,13 @@ url: "https://derrick97.github.io" # Site url, also used in jekyll-seo-tag
 # 8. Site navigation
 navigation_header:
   Home: /
+  Basic Knowledge & BRDF: /basicknowledge/
+  Microfacet Theory: /microfacet/
   Bump Mapping: /bumpmapping/
   Oren Nayar Model: /orennayarmodel/
   Cook-Torrance Model: /cooktorrancemodel/
-  Search: /search/
   Personal Page: /personalpage/
+  
 
 navigation_footer:
   Back to Home: /
