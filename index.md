@@ -4,7 +4,7 @@ layout: home
 feature_text: |
   ## Microfacet-based realistic appearance models of reflection in Computer Graphics
   
-feature_image: "http://i.imgur.com/kEthf6J.jpg"
+feature_image: "https://puu.sh/uHAiA/fdbbf53333.jpg"
 image: "https://unsplash.it/600/400?image=971"
 excerpt: "Computer graphics is one of the most important techniques in the 21st century. People need"
 ---

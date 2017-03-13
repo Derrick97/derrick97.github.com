@@ -9,7 +9,8 @@ title: Oren Nayar Model
   
   {% include figure.html image="https://puu.sh/uvclH/f9a0fc6ab8.PNG" caption="Lambertian Model : direction 1" position="left" %}
   
-  {% include figure.html image="https://puu.sh/uvclI/6a3c60b80c.PNG" caption="Lambertian Model : direction 1" position="right" %}
+  {% include figure.html image="https://puu.sh/uvclI/6a3c60b80c.PNG" caption="Lambertian Model : direction 2" %}
+  <br>
   
   This works well on smooth surface but not for rough surface, because irregular bumps, or called “microfacet”, on the rough surface, will not diffuse the light evenly. 
 
@@ -19,4 +20,4 @@ title: Oren Nayar Model
   
    {% include figure.html image="https://puu.sh/uvcls/eda177746d.PNG" caption="Using Lambertian Model" position="left" %}
    
-   {% include figure.html image="https://puu.sh/uvclE/adaef73c48.PNG" caption="Using Oren Nayar Model" position="right" %}
+   {% include figure.html image="https://puu.sh/uvclE/adaef73c48.PNG" caption="Using Oren Nayar Model" %}
