@@ -40,6 +40,8 @@ It is the strength of the radiance of the incident object, which measures the ar
 # Radiance
 
   Symbol: L
+  
+Radiance is the flux density per unit area per unit solid angle.
 
 # Received Energy
 
