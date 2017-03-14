@@ -1,7 +1,7 @@
 ---
 title:   
 layout: home
-feature_text: |
+feature_text: 
   ## Microfacet-based realistic appearance models of reflection in Computer Graphics
   
 feature_image: "https://puu.sh/uHAiA/fdbbf53333.jpg"
@@ -36,15 +36,15 @@ Microfacet Theory is a theory based on realistic surfaces. It is interested in t
 
 Oryan Nayar Model gives a more realistic model than previous model methods, such as Lambertian Model. It is especially effective when modelling rough surface, because it gives a relatively reasonable algorthim to take care of light diffusion of irregular surface.
 
-[read more >>](/orennayarmodel/)
+[Read More >>](/orennayarmodel/)
 
 ### Bump Mapping
 
 Bump Mapping is an important technique for understanding the Microfacet Distribution. This part introduces why we should use bump in microfacet models, and how bump mapping works.
 
-[read more >>](/bumpmapping/)
+[Read More >>](/bumpmapping/)
 
 ### Cook-Torrance
 Cook-Torrance Reflectance Model is one of the greatest model for calculating the reflection on rough surfaces. Compared to some old models, which is poor in tackling the micro features of a surface, Cook-Torrance offers a more realistic and precise way.
 
-[read more >>](/cooktorrancemodel/)
+[Read More >>](/cooktorrancemodel/)

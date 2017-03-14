@@ -91,9 +91,7 @@ navigation_header:
   Bump Mapping: /bumpmapping/
   Oren Nayar Model: /orennayarmodel/
   Cook-Torrance Model: /cooktorrancemodel/
-  Personal Page: /personalpage/
   
-
 navigation_footer:
   Back to Home: /
   
