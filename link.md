@@ -1,3 +1,4 @@
+layout: home
 Reference List:
 Aditi Majumder. Bump and Environment Environment Mapping. Web Address: http://www.ics.uci.edu/~majumder/VC/classes/BEmap.pdf {Access Date: 2017.3.9}
 
@@ -11,7 +12,7 @@ Nicolas Holzschuch. Material representation, Reflectance, BRDFs. Web Address: ht
 
 Robert L. Cook and Kenneth E. Torrance. 1981. A Reflectance Model for Computer Graphics. Computer Graphics Vol.15. 307-312
 
-Matt Pharr and Greg Humphreys. 2003. Physically-based image synthesis:from theory to implementation. Draft. 
+Matt Pharr and Greg Humphreys. 2003. Physically-based image synthesis:from theory to implementation. Draft. 187-197, 352-353. 
 
 
 image:
