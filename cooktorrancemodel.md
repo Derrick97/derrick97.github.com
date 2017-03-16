@@ -27,12 +27,16 @@ Function G represents Geometrical Attenuation Factor, which measures how much li
 
 {% include figure.html image="https://puu.sh/uKJeM/f6680f04da.png" caption="Geometrical Attenuation Factor" %}
 
-Function D represents Normal Distribution Function. The basic idea of Normal Distribution Function is to calculate the ratio of microfacet structure on a given direction to all the microfacet structures on the surface. These three functions give the expression of Cook-Torrance Model. 
+Function D represents Beckmann Distribution Function. The basic idea of this Distribution Function is to calculate the ratio of microfacet structure on a given direction to all the microfacet structures on the surface. For the Phong model, its distribution function has implied that its 
+
+{% include figure.html image="https://puu.sh/uKJeM/f6680f04da.png" caption="Normal Distribution Function" %}
+
+These three functions give the expression of Cook-Torrance Model. 
  
 {% include figure.html image="https://puu.sh/uvclp/196b61c09c.PNG" caption="expression of Cook-Torrance Model" %}
 
 
-The Graph below shows a graph generated using cook-torrance model:
+The Graph below shows a graph generated using cook-torrance model. In the graph we can see a very strong effect of specular reflection.
 
 {% include figure.html image="https://puu.sh/uvclq/1a87710725.PNG" caption="Generating Using Cook-Torrance" %}
 {% include figure.html image="https://puu.sh/uKK6v/04228ffc60.PNG" caption="Generating Using Cook-Torrance" %}

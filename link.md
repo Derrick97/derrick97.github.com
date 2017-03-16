@@ -1,13 +1,17 @@
-Links:
-[http://www.ics.uci.edu/~majumder/VC/classes/BEmap.pdf](http://www.ics.uci.edu/~majumder/VC/classes/BEmap.pdf) 
-[http://inst.eecs.berkeley.edu/~cs283/sp13/lectures/cookpaper.pdf](http://inst.eecs.berkeley.edu/~cs283/sp13/lectures/cookpaper.pdf)
-[http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/Theory/mappingimages/Bump-mapping.png](http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/Theory/mappingimages/Bump-mapping.png)
-[http://www.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf](http://www.cs.northwestern.edu/~ago820/cs395/Papers/Phong_1975.pdf)
-[https://zhuanlan.zhihu.com/p/21376124](https://zhuanlan.zhihu.com/p/21376124)
-[http://maverick.inria.fr/~Nicolas.Holzschuch/cours/Slides/1b_Materiaux.pdf](http://maverick.inria.fr/~Nicolas.Holzschuch/cours/Slides/1b_Materiaux.pdf)
-[http://ruh.li/GraphicsCookTorrance.html]
-(http://ruh.li/GraphicsCookTorrance.html)
+Reference List:
+Aditi Majumder. Bump and Environment Environment Mapping. Web Address: http://www.ics.uci.edu/~majumder/VC/classes/BEmap.pdf {Access Date: 2017.3.9}
 
+ROBERT L. COOK and KENNETH E. TORRANCE. 1982. A Reflectance Model for Computer Graphics. ACM Transactions on Graphics. Vol.1. 11-13.
+
+Bui Tuong Phong. 1975. Illumination for Computer Generated Pictures. Communications on ACM. Volume 18. 311-312
+
+Maple. 基于物理着色：BRDF. Web Address: https://zhuanlan.zhihu.com/p/21376124 {Access Date: 2017.3.9}
+
+Nicolas Holzschuch. Material representation, Reflectance, BRDFs. Web Address: http://maverick.inria.fr/~Nicolas.Holzschuch/cours/Slides/1b_Materiaux.pdf {Access Date: 2017.3.7} 
+
+Robert L. Cook and Kenneth E. Torrance. 1981. A Reflectance Model for Computer Graphics. Computer Graphics Vol.15. 307-312
+
+Matt Pharr and Greg Humphreys. 2003. Physically-based image synthesis:from theory to implementation. Draft. 
 
 
 image:
@@ -15,10 +19,4 @@ image:
 
 2.http://segmentfault.com/img/bVb0PT
 
-Book:
-
-Physically-based inage synthesis:from theory to implementation
-
-Matt Pharr and Greg Humphreys
-
-4 November 2003
+3.http://glasnost.itcarlow.ie/~powerk/GeneralGraphicsNotes/Theory/mappingimages/Bump-mapping.png
