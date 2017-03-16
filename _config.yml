@@ -77,11 +77,11 @@ encoding: utf-8 # Make sure the encoding is right
 title: "CO Topics" # Site name or title, also used in jekyll-seo-tag
 logo: "https://puu.sh/utXze/0f90db8700.jpg" # Site logo, also used in jekyll-seo-tag
 description: "This is the website for our CO Topics Project. It briefly introduces the information for microfacet model in computer graphics" # Site description and default description, also used in jekyll-seo-tag
-url: "https://derrick97.github.io" # Site url, also used in jekyll-seo-tag
+url: "https://www.doc.ic.ac.uk/~cz1616" # Site url, also used in jekyll-seo-tag
 # repo: "https://github.com/daviddarnes/alembic"
 # email: "me@daviddarnes.com"
 # disqus: "alembic-1"
-# avatarurl: "https://www.gravatar.com/avatar/6c0377abcf4da91cdd35dea4554b2a4c" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
+avatarurl: "https://puu.sh/utXze/0f90db8700.jpg" # Uses avatars for favicons to get multple sites, eg Gravatar, Twitter, GitHub
 
 # 8. Site navigation
 navigation_header:

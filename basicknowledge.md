@@ -85,10 +85,41 @@ In order to completely understand BRDF Theorem, we need to get the basic knowled
    {% include mytable.html %}
    </a>
 </div>
+
+<br>
+# BRDF
+
+  The bidirectional reflectance distribution function (BRDF) is the function that describes the relationship between the incident light and the reflected light of the surface. The light in the surroundings incident onto the surface, and then reflect a small part back to our eyes, this forms the real surface of the objects we see.
+  
+  For incident light in one direction, the surface will reflect it to different directions. The ratio of amount of reflected light in those directions are different. Hence we use BRDF tp represent the ratio of incident and reflrcted light in given directions.
+  
+  The basic Definition of BRDF is:
+  
+  <img src="https://puu.sh/uKc5j/adc11182f8.gif">
+
+  Lo is the Radiance of the output light while Ei is the Irradiance of the input light.
+  
+  The detailed definition is:
+  
+  <img src="https://puu.sh/uKcUK/b8813c4b3a.png">
+  
+  while ωo and ωi represents the solid angle of the output light and the incident light, respectively. Lr and Ei are Lo and Ei in the basic definition. θi is the angle between ωi and the normal of the incident surface.
+  
+  {% include figure.html image="https://puu.sh/uKhfm/1086c359ab.png" caption="BRDF" %}
+  
+  Surface may have different reflectivity to light with different frequency, Hence in Graphics, we represent BRDF as RGB vectors, each vector has its own BRDF.
+  
 ## BRDF Model
 
-the BRDF model measures the ratio of the irritance of the incident beam and the reflectance of the reflected beam. it described how much energy of specific wavelength of light is transferred to a specific given direction in the reflective surface.
-
+  Nowadays, there are hundreds of models based on BRDF theorem. They are mainly categorized as empirical models, physical-based models, and semi-empirical models.
+  
+  In computer Graphics, we use physical-based model to generate graphs. We apply microfacet theorem on surface, consider them as small mirrors with random size and normal angle. And we found the distribution of those micro-surfaces to implement the BRDF.
+  
+  You may find more about microfacet theory: 
+  
+  {% include button.html text="Find more about microfacet theory" link="/microfacet/" %}
+  
+  
   
   
   
