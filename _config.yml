@@ -77,7 +77,8 @@ encoding: utf-8 # Make sure the encoding is right
 title: "CO Topics" # Site name or title, also used in jekyll-seo-tag
 logo: "https://puu.sh/utXze/0f90db8700.jpg" # Site logo, also used in jekyll-seo-tag
 description: "This is the website for our CO Topics Project. It briefly introduces the information for microfacet model in computer graphics" # Site description and default description, also used in jekyll-seo-tag
-url: "https://www.doc.ic.ac.uk/~cz1616" # Site url, also used in jekyll-seo-tag
+url: "project/2016/163/g1616327" # Site url, also used in jekyll-seo-tag
+baseurl: "/project/2016/163/g1616327" 
 # repo: "https://github.com/daviddarnes/alembic"
 # email: "me@daviddarnes.com"
 # disqus: "alembic-1"
